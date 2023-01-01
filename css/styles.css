@@ -1,0 +1,346 @@
+/** @format */
+
+:root {
+  --primary-brand-color: #4d5ae5;
+  --dark-color: #2e2f42;
+  --success-color: #31d0aa;
+  --text-color: #434455;
+  --subtle-text-color: #8e8f99;
+  --accent-color: #e7e9fc;
+  --light-color: #f4f4fd;
+  --white-color: #ffffff;
+  --pressed-state-color: #404bbf;
+}
+
+/*
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+*/
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+  background-color: var(--white-color);
+}
+
+/* _______________________ HEADER __________________________*/
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.container {
+  width: 1440px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 1px solid red;
+  margin: 0 auto;
+}
+
+.logo,
+.logo-web {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--dark-color);
+}
+
+.logo-web {
+  color: var(--primary-brand-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.header-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  cursor: pointer;
+  color: var(--dark-color);
+}
+
+.header-link:hover,
+.header-link:focus,
+.header-link:active {
+  color: var(--primary-brand-color);
+}
+
+.header-contact-link {
+  line-height: 1.5;
+  color: var(--text-color);
+}
+
+.header-contact-link:hover,
+.header-contact-link:focus,
+.header-contact-link:active {
+  color: var(--primary-brand-color);
+}
+
+/* _______________________ MAIN __________________________*/
+/*___________title______________*/
+
+.main-title {
+  padding-top: 188px;
+  padding-bottom: 292px;
+  background-color: var(--dark-color);
+}
+.main-title-text {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  color: var(--white-color);
+  margin-bottom: 48px;
+}
+
+.main-btn {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  letter-spacing: 0.04em;
+  color: var(--white-color);
+  background-color: var(--primary-brand-color);
+  width: 169px;
+  height: 56px;
+  border: 1px solid var(--primary-brand-color);
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.main-btn:hover,
+.main-btn:focus,
+.main-btn:active {
+  border: 1px solid var(--pressed-state-color);
+  color: var(--white-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+/*___________section features ______________*/
+
+.features {
+  padding-top: 120px;
+  padding-bottom: 60px;
+}
+
+.features-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  margin-bottom: 8px;
+}
+
+.features-text {
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--text-color);
+}
+
+/*___________section whatwedo______________*/
+
+.whatwedo {
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+
+.whatwedo-titel {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+.whatwedo-foto {
+  box-sizing: border-box;
+  width: 360px;
+  height: 300px;
+  border: 1px solid var(--accent-color);
+}
+
+/*___________section team______________*/
+
+.team {
+  background-color: var(--light-color);
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.team-main-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.team-block {
+  width: 264px;
+  height: 380px;
+  background: var(--white-color);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-foto {
+  width: 264px;
+  height: 260px;
+  margin-bottom: 32px;
+}
+
+.team-titel {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.team-text {
+  line-height: 1.5;
+  text-align: center;
+  color: var(--text-color);
+  margin-bottom: 32px;
+}
+
+/* _______________________ FOOTER __________________________*/
+
+.footer {
+  background-color: var(--dark-color);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: calc(21 / 18);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--light-color);
+  margin-bottom: 16px;
+}
+
+.footer-text {
+  line-height: 1.5;
+  color: var(--accent-color);
+}
+
+/*______________________________________PORTFOLIO_______________________*/
+
+.portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
+/*___________section buttons______________*/
+
+.portfolio-btn {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--primary-brand-color);
+  background-color: var(--light-color);
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 72px;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus,
+.portfolio-btn:active {
+  cursor: pointer;
+  border: 1px solid var(--pressed-state-color);
+  background-color: var(--pressed-state-color);
+  color: var(--white-color);
+}
+
+/*___________ section portfolio ______________*/
+
+.portfolio-block {
+  width: 360px;
+  height: 420px;
+  border: 1px solid var(--accent-color);
+  background-color: var(--white-color);
+  /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);*/
+  margin-bottom: 48px;
+}
+
+.portfolio-foto {
+  width: 360px;
+  height: 300px;
+  margin-bottom: 32px;
+}
+
+.portfolio-titel {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  margin-bottom: 8px;
+}
+
+.portfolio-text {
+  line-height: 1.5;
+  color: var(--text-color);
+  margin-bottom: 32px;
+}
+
+/*_________________________ visually-hidden _________*/
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
