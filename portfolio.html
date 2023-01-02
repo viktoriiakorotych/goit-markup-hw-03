@@ -19,18 +19,20 @@
   <body>
     <!-- header -->
     <header class="header">
-      <div class="container">
+      <div class="container header-container">
         <!--header list -->
-        <a class="logo link" href="./index.html"> <span class="logo-web">WEB</span>STUDIO </a>
-        <ul class="list">
-          <li><a class="header-link link" href="./index.html">Studio</a></li>
-          <li><a class="header-link link" href="./portfolio.html">Portfolio</a></li>
-          <li><a class="header-link link" href="">Contacts</a></li>
-        </ul>
-        <a class="header-contact-link link" href="mailto:info@devstudio.com">
+        <nav class="header-navigation">
+          <a class="logo link" href="./index.html"> <span class="logo-web">WEB</span>STUDIO </a>
+          <ul class="header-list list">
+            <li><a class="header-link link" href="./index.html">Studio</a></li>
+            <li><a class="header-link link" href="./portfolio.html">Portfolio</a></li>
+            <li><a class="header-link link" href="">Contacts</a></li>
+          </ul>
+        </nav> 
+        <a class="header-contact-link link header-mail" href="mailto:info@devstudio.com">
           info@devstudio.com
         </a>
-        <a class="header-contact-link link" href="tel:+11(000)1111111"> +11 (000) 111-11-11 </a>
+        <a class="header-contact-link link header-tel" href="tel:+11(000)1111111"> +11 (000) 111-11-11 </a>
       </div>
     </header>
 
@@ -41,16 +43,16 @@
         <div class="container">
           <h1 class="visually-hidden">Portfolio</h1>
           <!--  buttons-->
-          <ul class="list">
-            <li><button class="portfolio-btn" type="button">All</button></li>
-            <li><button class="portfolio-btn" type="button">Web Site</button></li>
-            <li><button class="portfolio-btn" type="button">App</button></li>
-            <li><button class="portfolio-btn" type="button">Design</button></li>
-            <li><button class="portfolio-btn" type="button">Marketing</button></li>
+          <ul class="btn-list list">
+            <li class="btn-list-point"><button class="portfolio-btn" type="button">All</button></li>
+            <li class="btn-list-point"><button class="portfolio-btn" type="button">Web Site</button></li>
+            <li class="btn-list-point"><button class="portfolio-btn" type="button">App</button></li>
+            <li class="btn-list-point"><button class="portfolio-btn" type="button">Design</button></li>
+            <li class="btn-list-point"><button class="portfolio-btn" type="button">Marketing</button></li>
           </ul>
 
           <!-- portfolio-->
-          <ul class="list">
+          <ul class="portfolio-list list">
             <li class="portfolio-block">
               <img
                 class="portfolio-foto"

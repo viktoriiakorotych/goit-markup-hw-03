@@ -19,18 +19,20 @@
   <body>
     <!-- header -->
     <header class="header">
-      <div class="container">
+      <div class="container header-container">
         <!--header list -->
-        <a class="logo link" href="./index.html"> <span class="logo-web">WEB</span>STUDIO </a>
-        <ul class="list">
-          <li><a class="header-link link" href="./index.html">Studio</a></li>
-          <li><a class="header-link link" href="./portfolio.html">Portfolio</a></li>
-          <li><a class="header-link link" href="">Contacts</a></li>
-        </ul>
-        <a class="header-contact-link link" href="mailto:info@devstudio.com">
+        <nav class="header-navigation">
+          <a class="logo link" href="./index.html"> <span class="logo-web">WEB</span>STUDIO </a>
+          <ul class="header-list list">
+            <li><a class="header-link link" href="./index.html">Studio</a></li>
+            <li><a class="header-link link" href="./portfolio.html">Portfolio</a></li>
+            <li><a class="header-link link" href="">Contacts</a></li>
+          </ul>
+        </nav> 
+        <a class="header-contact-link link header-mail" href="mailto:info@devstudio.com">
           info@devstudio.com
         </a>
-        <a class="header-contact-link link" href="tel:+11(000)1111111"> +11 (000) 111-11-11 </a>
+        <a class="header-contact-link link header-tel" href="tel:+11(000)1111111"> +11 (000) 111-11-11 </a>
       </div>
     </header>
 
@@ -38,7 +40,7 @@
     <main>
       <!--section title-->
       <section class="main-title">
-        <div class="container">
+        <div class="container main-title-items">
           <h1 class="main-title-text">Effective Solutions for Your Business</h1>
           <button class="main-btn" type="button">Order Service</button>
         </div>
@@ -48,7 +50,7 @@
       <section class="features">
         <div class="container">
           <h2 class="visually-hidden">Features</h2>
-          <ul class="list">
+          <ul class="features-list list">
             <li>
               <h3 class="features-title">Strategy</h3>
               <p class="features-text">
@@ -85,14 +87,14 @@
       <section class="whatwedo">
         <div class="container">
           <h2 class="whatwedo-titel">What are we doing</h2>
-          <ul class="list">
-            <li>
+          <ul class="whatwedo-list list">
+            <li class="whatwedo-item">
               <img class="whatwedo-foto" src="./img/whatwedo/computer.jpg" alt="computer" />
             </li>
-            <li>
+            <li class="whatwedo-item">
               <img class="whatwedo-foto" src="./img/whatwedo/screenshots.jpg" alt="screenshots" />
             </li>
-            <li>
+            <li class="whatwedo-item">
               <img class="whatwedo-foto" src="./img/whatwedo/handy.jpg" alt="handy" />
             </li>
           </ul>
@@ -103,7 +105,7 @@
       <section class="team">
         <div class="container">
           <h2 class="team-main-title">Our Team</h2>
-          <ul class="list">
+          <ul class="team-list list">
             <li class="team-block">
               <img class="team-foto" src="./img/ourteam/markguerrero.jpg" alt="Mark Guerrero" />
               <h3 class="team-titel">Mark Guerrero</h3>
