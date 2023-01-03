@@ -52,7 +52,6 @@ body {
 /* _______________________ HEADER __________________________*/
 
 .header {
-  height: 72px;
   padding-top: 24px;
   padding-bottom: 24px;
   border-bottom: 1px solid var(--accent-color);
@@ -63,9 +62,9 @@ body {
 }
 
 .container {
-  width: 1440px;
-  padding-left: 156px;
-  padding-right: 156px;
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
   outline: 1px solid red;
   margin: 0 auto;
 }
@@ -145,10 +144,9 @@ body {
 
 /* _______________________ MAIN __________________________*/
 /*___________title______________*/
-
 .main-title {
   padding-top: 188px;
-  padding-bottom: 292px;
+  padding-bottom: 188px;
   background-color: var(--dark-color);
 }
 /*
@@ -163,7 +161,9 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--white-color);
+  margin: 0 auto;
   margin-bottom: 48px;
+  width: 496px;
 }
 
 .main-btn {
@@ -281,17 +281,15 @@ body {
 
 .team-block {
   width: 264px;
-  height: 380px;
   background: var(--white-color);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-foto {
-  width: 264px;
-  height: 260px;
-  margin-bottom: 32px;
+.team-item {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .team-titel {
@@ -307,7 +305,6 @@ body {
   line-height: 1.5;
   text-align: center;
   color: var(--text-color);
-  margin-bottom: 32px;
 }
 
 /* _______________________ FOOTER __________________________*/
@@ -326,13 +323,13 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--light-color);
-  margin-bottom: 16px;
 }
 
 .footer-text {
   line-height: 1.5;
   color: var(--accent-color);
   max-width: 264px;
+  margin-top: 16px;
 }
 
 /*______________________________________PORTFOLIO_______________________*/
@@ -341,8 +338,9 @@ body {
 
 .btn-list {
   display: flex;
-  margin-left: calc(427px - 156px);
+  justify-content: center;
   gap: 24px;
+  margin-bottom: 72px;
 }
 
 .portfolio-btn {
@@ -358,7 +356,6 @@ body {
   border: 1px solid var(--accent-color);
   border-radius: 4px;
   cursor: pointer;
-  margin-bottom: 72px;
   padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 24px;
@@ -391,16 +388,17 @@ body {
 
 .portfolio-block {
   width: 360px;
-  height: 420px;
-  border: 1px solid var(--accent-color);
-  background-color: var(--white-color);
   /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);*/
 }
 
 .portfolio-foto {
   width: 360px;
-  height: 300px;
-  margin-bottom: 32px;
+}
+
+.portfolio-item {
+  border: 1px solid var(--accent-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .portfolio-titel {
@@ -414,7 +412,6 @@ body {
 .portfolio-text {
   line-height: 1.5;
   color: var(--text-color);
-  margin-bottom: 32px;
 }
 
 /*_________________________ visually-hidden _________*/
