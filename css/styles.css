@@ -47,6 +47,8 @@ body {
 
 .img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /* _______________________ HEADER __________________________*/
@@ -65,7 +67,7 @@ body {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 1px solid red;
+/*  outline: 1px solid red; */
   margin: 0 auto;
 }
 
@@ -250,9 +252,7 @@ body {
   margin-bottom: 72px;
 }
 .whatwedo-foto {
-  box-sizing: border-box;
   width: 360px;
-  height: 300px;
   border: 1px solid var(--accent-color);
 }
 
@@ -287,9 +287,14 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 
+.team-foto {
+ display: block;
+}
+
 .team-item {
   padding-top: 32px;
   padding-bottom: 32px;
+  
 }
 
 .team-titel {
@@ -393,6 +398,7 @@ body {
 
 .portfolio-foto {
   width: 360px;
+  display: block;
 }
 
 .portfolio-item {
