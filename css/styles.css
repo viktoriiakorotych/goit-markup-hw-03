@@ -67,7 +67,7 @@ body {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-/*  outline: 1px solid red; */
+  /*  outline: 1px solid red; */
   margin: 0 auto;
 }
 
@@ -288,13 +288,12 @@ body {
 }
 
 .team-foto {
- display: block;
+  display: block;
 }
 
 .team-item {
   padding-top: 32px;
   padding-bottom: 32px;
-  
 }
 
 .team-titel {
@@ -393,11 +392,11 @@ body {
 
 .portfolio-block {
   width: 360px;
-  /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);*/
+  border: 1px solid var(--accent-color);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-foto {
-  width: 360px;
   display: block;
 }
 
@@ -405,6 +404,9 @@ body {
   border: 1px solid var(--accent-color);
   padding-top: 32px;
   padding-bottom: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-top: 0;
 }
 
 .portfolio-titel {
