@@ -116,6 +116,7 @@ body {
   cursor: pointer;
   letter-spacing: 0.02em;
   color: var(--dark-color);
+  padding: 24px 0 24px;
 }
 
 .current {
@@ -129,9 +130,11 @@ body {
 }
 
 .header-contact-link {
+  display: flex;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
+  gap: 40px;
 }
 
 .header-contact-link:hover,
@@ -166,6 +169,7 @@ body {
   margin: 0 auto;
   margin-bottom: 48px;
   width: 496px;
+  max-width: 496px;
 }
 
 .main-btn {
@@ -177,11 +181,6 @@ body {
   letter-spacing: 0.04em;
   color: var(--white-color);
   background-color: var(--primary-brand-color);
-  /*width: 169px;
-  height: 56px;
-  */
-  border: 1px solid var(--primary-brand-color);
-  border-radius: 4px;
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   text-align: center;
@@ -191,6 +190,9 @@ body {
   padding-right: 32px;
   display: block;
   margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
+  border: none; 
 }
 
 .main-btn:hover,
@@ -203,12 +205,16 @@ body {
 /*___________section features ______________*/
 
 .features {
-  padding-top: 120px;
-  padding-bottom: 60px;
+padding: 120px 0 120px;
 }
+
 .features-list {
   display: flex;
   gap: 24px;
+}
+
+.features-list-point{
+  width: calc((100% - 72px) / 4);
 }
 
 .features-title {
@@ -259,9 +265,8 @@ body {
 /*___________section team______________*/
 
 .team {
+  padding: 120px 0 120px;
   background-color: var(--light-color);
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .team-list {
@@ -280,7 +285,7 @@ body {
 }
 
 .team-block {
-  width: 264px;
+  width: calc((100% - 72px) / 4);
   background: var(--white-color);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -292,8 +297,7 @@ body {
 }
 
 .team-item {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding: 32px 0 32px;
 }
 
 .team-titel {
