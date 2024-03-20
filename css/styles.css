@@ -124,23 +124,29 @@ body {
 }
 
 .header-link:hover,
-.header-link:focus,
-.header-link:active {
-  color: var(--primary-brand-color);
+.header-link:focus {
+  color: #404bbf;
 }
 
-.header-contact-link {
+.header-adress {
+  font-style: normal;
+}
+
+.header-address-list{
   display: flex;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--text-color);
   gap: 40px;
 }
 
+.header-contact-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
 .header-contact-link:hover,
-.header-contact-link:focus,
-.header-contact-link:active {
-  color: var(--primary-brand-color);
+.header-contact-link:focus {
+  color: #404bbf;
 }
 
 .header-mail {
@@ -193,6 +199,7 @@ body {
   min-width: 169px;
   height: 56px;
   border: none; 
+  border-radius: 4px;
 }
 
 .main-btn:hover,
