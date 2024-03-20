@@ -327,6 +327,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--light-color);
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-text {
